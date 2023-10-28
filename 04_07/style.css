@@ -16,28 +16,30 @@ body {
 }
 
 .box {
+  box-sizing: border-box;
+  inline-size: calc(100vw - 2rem);
   padding: 2rem 4rem;
   text-align: center;
   background: hsl(208, 96%, 63%);
 }
 
 .box {
-  --color-h: 258;
-  --color-s: 96%;
-  --color-l: 63;
+  --color-h: 63;
+  --color-s: 63%;
+  --color-l: 23;
 
-  /* 
+  
   --color-base: hsl(var(--color-h), var(--color-s), calc(var(--color-l) * 1%));
   --color-light: hsl(var(--color-h), var(--color-s), calc((var(--color-l) + 20) * 1%));
   --color-dark: hsl(var(--color-h), var(--color-s), calc((var(--color-l) - 20) * 1%)); 
-  */
+ 
 
-  /* 
+  
   background: linear-gradient(
     90deg, 
     var(--color-light) 0%, 
     var(--color-base) 50%,
     var(--color-dark) 100%
   ); 
-  */
+ 
 }

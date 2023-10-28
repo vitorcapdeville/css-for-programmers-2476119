@@ -22,7 +22,7 @@ img {
   display: none;
 }
 
-/*
+
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   clip-path: inset(50%);
@@ -33,7 +33,7 @@ img {
   padding: 0;
   position: absolute;
 }
-*/
+
 
 .main p {
   font-size: 1.5rem;
